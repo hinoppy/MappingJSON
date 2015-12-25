@@ -106,7 +106,6 @@ public class MappingJSON {
     }
     
     
-    
     public func value<T, U>(key: String, transform: (U) -> T?) throws -> T {
         let rawValue: U = try self.value(key)
         guard let value = transform(rawValue) else {
