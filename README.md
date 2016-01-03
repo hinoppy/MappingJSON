@@ -53,7 +53,7 @@ print(user.email) // shows 'example@example.com' to you console!
 ```
 
 ## Transforms
-You can transform raw values from JSON to what ever objects you like.  
+You can transform raw values from JSON to whatever objects you like.  
 To transform, simply add a closure to second argument of ```value``` or ```optionalValue``` function.
 
 ```swift
