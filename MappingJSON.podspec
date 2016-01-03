@@ -13,7 +13,7 @@ DESC
   s.osx.deployment_target = "10.10"
   s.watchos.deployment_target = "2.1"
   s.tvos.deployment_target = "9.1"
-  s.source       = { :git => "https://github.com/hinoppy/MappingJSON", :tag => s.version }
+  s.source       = { :git => "https://github.com/hinoppy/MappingJSON.git", :tag => s.version }
   s.source_files  = "MappingJSON/*.swift"
   s.requires_arc = true
 end
