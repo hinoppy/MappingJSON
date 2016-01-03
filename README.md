@@ -10,6 +10,20 @@ MappingJSON is a framework written in Swift to make it easy to map JSON to your 
 - tvOS 9.1 or later
 - watchOS 2.1 or later
 
+## Installation
+
+- Carthage
+```
+github "hinoppy/MappingJSON" ~> 1.0.0
+```
+
+- CocoaPods
+```
+use_frameworks!
+pod "MappingJSON", "~> 1.0.0"
+```
+
+
 ## Usage
 Objects just need to implement ```Object``` protocol for mapping.
 ```swift
