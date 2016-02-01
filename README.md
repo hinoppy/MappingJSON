@@ -1,5 +1,4 @@
 # MappingJSON
-[![GitHub release](https://img.shields.io/github/release/hinoppy/MappingJSON.svg)](https://github.com/hinoppy/MappingJSON/releases)
 [![Build Status](https://travis-ci.org/hinoppy/MappingJSON.svg?branch=master)](https://travis-ci.org/hinoppy/MappingJSON)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)  
 
