@@ -1,5 +1,7 @@
 # MappingJSON
+[![GitHub release](https://img.shields.io/github/release/hinoppy/MappingJSON.svg)](https://github.com/hinoppy/MappingJSON/releases)
 [![Build Status](https://travis-ci.org/hinoppy/MappingJSON.svg?branch=master)](https://travis-ci.org/hinoppy/MappingJSON)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)  
 
 MappingJSON is a framework written in Swift to make it easy to map JSON to your object.
 
@@ -9,6 +11,20 @@ MappingJSON is a framework written in Swift to make it easy to map JSON to your 
 - iOS 8.0 or later
 - tvOS 9.1 or later
 - watchOS 2.1 or later
+
+## Installation
+
+- Carthage
+```
+github "hinoppy/MappingJSON" ~> 1.0.0
+```
+
+- CocoaPods
+```
+use_frameworks!
+pod "MappingJSON", "~> 1.0.0"
+```
+
 
 ## Usage
 Objects just need to implement ```Object``` protocol for mapping.
